@@ -1,8 +1,15 @@
-function Message(){
-    return (
-        <div>
-            <h1>HI EVERYONE!</h1>
-        </div>
-    );
+import "./App.css";
+import Navbar from "./Navbar";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+function App() {
+  return (
+    <div>
+      <Navbar></Navbar>
+      <Main></Main>
+      <Footer></Footer>
+    </div>
+  );
 }
-export {Message};
+
+export default App;
