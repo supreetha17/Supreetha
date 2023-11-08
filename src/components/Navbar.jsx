@@ -3,11 +3,11 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <hr></hr>
-      <h1 style={{ backgroundColor: "lavender", fontSize: "30px" }}>
-        Your Name
-      </h1>
-      <hr></hr>
+      <center>
+        <h1 style={{ backgroundColor: "YELLOW", fontSize: "30px" }}>
+          SUPREETHA
+        </h1>
+      </center>
     </div>
   );
 };

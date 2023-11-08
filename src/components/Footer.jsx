@@ -3,11 +3,20 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <hr></hr>
-
-      <h2>123@gmail.com</h2>
-
-      <hr></hr>
+      <h3>KIM TAEHYUNG</h3>
     </div>
   );
 };
