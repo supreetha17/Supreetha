@@ -14,7 +14,7 @@ const Main = () => {
         <br></br>
         <br></br>
         <label for="na">Password: &emsp;</label>
-        <input id="na" type="box" placeholder="Password"></input>
+        <input id="na" type="password" placeholder="Password"></input>
         <br></br>
         <br></br>
         <button type="btn">Submit</button>
