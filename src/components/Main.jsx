@@ -17,7 +17,7 @@ const Main = () => {
         <input id="na" type="password" placeholder="Password"></input>
         <br></br>
         <br></br>
-        <button type="btn">Submit</button>
+        <button>Submit</button>
       </center>
     </div>
   );
