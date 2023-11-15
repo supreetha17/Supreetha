@@ -1,3 +1,5 @@
+import React from "react";
+
 const Menu = ({ activeCategory, handleAddToCart }) => {
   return (
     <div className="px-6">
