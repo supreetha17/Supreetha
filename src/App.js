@@ -4,27 +4,27 @@
 // import Main from "./Components/Main";
 // import Footer from "./Components/Footer";
 //import Buttons from "./Components/Buttons";
-//import GokuTransformation from "./Day3/GokuTransformation";
-import DynamicRendering from "./Day 3/DynamicRendering";
+//import DynamicRendering from "./Day 3/DynamicRendering";
 //import HelloWorld from "./Day2/HelloWorld";
 //import Counter from "./Day 3/Counter";
+import GokuTransformation from "./Day 3/GokuTransformation";
 
 function App() {
   return (
     <div>
-      <DynamicRendering></DynamicRendering>
+      <GokuTransformation></GokuTransformation>
     </div>
-    // <Counter></Counter>
-    //<HelloWorld></HelloWorld>
-    //   ****buttons code***
-    //     <div className="flex space-x-4 my-4">
-    //       <Buttons color="green">Green</Buttons>
-    //       <Buttons color="red">Red</Buttons>
-    //       <Buttons color="blue">Blue</Buttons>
-    //       <Buttons color="yellow">Yellow</Buttons>
-    //     </div>
   );
 }
+// <Counter></Counter>
+//<HelloWorld></HelloWorld>
+//   ****buttons code***
+//     <div className="flex space-x-4 my-4">
+//       <Buttons color="green">Green</Buttons>
+//       <Buttons color="red">Red</Buttons>
+//       <Buttons color="blue">Blue</Buttons>
+//       <Buttons color="yellow">Yellow</Buttons>
+//     </div>
 
 export default App;
 
