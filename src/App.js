@@ -1,5 +1,4 @@
 //import "./App.css";
-//import ToggleMessage from "./Day3/ToggleMessage";
 // import Navbar from "./Components/Navbar";
 // import Main from "./Components/Main";
 // import Footer from "./Components/Footer";
@@ -7,12 +6,13 @@
 //import DynamicRendering from "./Day 3/DynamicRendering";
 //import HelloWorld from "./Day2/HelloWorld";
 //import Counter from "./Day 3/Counter";
-import GokuTransformation from "./Day 3/GokuTransformation";
+//import GokuTransformation from "./Day 3/GokuTransformation";
+import ToggleMessage from "./Day 3/ToggleMessage";
 
 function App() {
   return (
     <div>
-      <GokuTransformation></GokuTransformation>
+      <ToggleMessage></ToggleMessage>
     </div>
   );
 }
