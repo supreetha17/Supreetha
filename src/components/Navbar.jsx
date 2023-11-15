@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <center>
         <h1 style={{ backgroundColor: "YELLOW", fontSize: "30px" }}>
-          SUPREETHA
+          Login Page
         </h1>
       </center>
     </div>

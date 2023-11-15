@@ -2,17 +2,21 @@
 // import Navbar from "./Components/Navbar";
 // import Main from "./Components/Main";
 // import Footer from "./Components/Footer";
-//import Buttons from "./Components/Buttons";
+import Buttons from "./Components/Buttons";
 //import DynamicRendering from "./Day 3/DynamicRendering";
 //import HelloWorld from "./Day2/HelloWorld";
 //import Counter from "./Day 3/Counter";
 //import GokuTransformation from "./Day 3/GokuTransformation";
-import ToggleMessage from "./Day 3/ToggleMessage";
+//import ToggleMessage from "./Day 3/ToggleMessage";
 
 function App() {
   return (
     <div>
-      <ToggleMessage></ToggleMessage>
+      <Buttons>Buttons</Buttons>
+      <Buttons color="green">Green</Buttons>
+      <Buttons color="red">Red</Buttons>
+      <Buttons color="blue">Blue</Buttons>
+      <Buttons color="yellow">Yellow</Buttons>
     </div>
   );
 }
@@ -20,10 +24,6 @@ function App() {
 //<HelloWorld></HelloWorld>
 //   ****buttons code***
 //     <div className="flex space-x-4 my-4">
-//       <Buttons color="green">Green</Buttons>
-//       <Buttons color="red">Red</Buttons>
-//       <Buttons color="blue">Blue</Buttons>
-//       <Buttons color="yellow">Yellow</Buttons>
 //     </div>
 
 export default App;
