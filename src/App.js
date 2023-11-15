@@ -5,15 +5,16 @@
 // import Footer from "./Components/Footer";
 //import Buttons from "./Components/Buttons";
 //import GokuTransformation from "./Day3/GokuTransformation";
-//import DynamicRendering from "./Day3/DynamicRendering";
+import DynamicRendering from "./Day 3/DynamicRendering";
 //import HelloWorld from "./Day2/HelloWorld";
-import Counter from "./Day 3/Counter";
+//import Counter from "./Day 3/Counter";
 
 function App() {
   return (
     <div>
-      <Counter></Counter>
+      <DynamicRendering></DynamicRendering>
     </div>
+    // <Counter></Counter>
     //<HelloWorld></HelloWorld>
     //   ****buttons code***
     //     <div className="flex space-x-4 my-4">
