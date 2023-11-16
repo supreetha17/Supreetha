@@ -20,25 +20,24 @@
 //     <div className="flex space-x-4 my-4">
 //     </div>
 
+//import Cart from "./Day 3/CoffeeShop/Cart";
+//import Menu from "./Day 3/CoffeeShop/Menu";
+//import Navbar from "./Day 3/CoffeeShop/Navbar";
+//import categories from "./Day 3/CoffeeShop/Products";
+//function App() {
+//return (
+//<div>
+//<Cart></Cart>
+//<Menu></Menu>
+//<Navbar></Navbar>
+//<Products></Productss>
 
+//</div>
+//);
+//}
+
+//export default App;
 // import { useState } from "react";
-import Cart from "./Day 3/CoffeeShop/Cart";
-import Menu from "./Day 3/CoffeeShop/Menu";
-import Navbar from "./Day 3/CoffeeShop/Navbar";
-import categories from "./Day 3/CoffeeShop/Products";
-function App() {
-  return (
-    <div>
-      <Cart></Cart>
-      <Menu></Menu>
-      <Navbar></Navbar>
-      <Products></Productss>
-
-    </div>
-  );
-}
-
-export default App;
 // function App() {
 //   const [activeCategory, setActiveCategory] = useState(categories[0]);
 //   const [products, setProducts] = useState([]);
