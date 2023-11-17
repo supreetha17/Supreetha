@@ -60,16 +60,16 @@
 // }
 
 // export default App;
-import Login from "./Project/Login";
-const App = () => {
-  return (
-    <div>
-      <Login></Login>
-    </div>
-  );
-};
+// import Login from "./Project/Login";
+// const App = () => {
+//   return (
+//     <div>
+//       <Login></Login>
+//     </div>
+//   );
+// };
 
-export default App;
+// export default App;
 // import Button from './Components/Button';
 // //import HelloWorld from './Day2/HelloWorld';
 // //import ToggleMessage from './Day2/ToggleMessage';
@@ -159,6 +159,31 @@ function App(){
 //       <Navbar category={categories} handleClick={handleClick} />
 //       <Menu activeCategory={activeCategory} handleAddToCart={handleAddToCart} />
 //       <Cart products={products} />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import React from "react";
+import Fruit from "./Day 3/Cricket";
+function App() {
+  return (
+    <div>
+      <h1></h1>
+      <Cricket />
+    </div>
+  );
+}
+
+export default App;
+// import React from "react";
+// import Fruit from "./Day-4/Fruit";
+// function App() {
+//   return (
+//     <div>
+//       <h1>Enter Your Name Favourite Fruit</h1>
+//       <Fruit />
 //     </div>
 //   );
 // }
