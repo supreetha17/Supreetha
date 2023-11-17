@@ -1,28 +1,32 @@
-import { Button } from "@mui/material";
+import { Grid } from "@mui/material";
+import MediaCard from "./MaterialCard";
 
-const Styles = () => {
+const MaterialGrid = () => {
   return (
-    <div>
-      <Button variant="outlined" color="error">
-        Error
-      </Button>
-      <Button variant="outlined" color="info">
-        Info
-      </Button>
-      <Button variant="outlined" color="primary">
-        Primary
-      </Button>
-      <Button variant="contained" color="secondary">
-        Secondary
-      </Button>
-      <Button variant="contained" color="success">
-        Success
-      </Button>
-      <Button variant="contained" color="warning">
-        Warning
-      </Button>
-    </div>
+    <Grid container rowGap={12}>
+      <Grid item>
+        <MediaCard />
+      </Grid>
+      <Grid item>
+        <MediaCard />
+      </Grid>
+      <Grid item>
+        <MediaCard />
+      </Grid>
+      <Grid item>
+        <MediaCard />
+      </Grid>
+      <Grid item>
+        <MediaCard />
+      </Grid>
+      <Grid item>
+        <MediaCard />
+      </Grid>
+      <Grid item>
+        <MediaCard />
+      </Grid>
+    </Grid>
   );
 };
 
-export default Styles;
+export default MaterialGrid;
