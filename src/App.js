@@ -39,7 +39,7 @@
 //export default App;
 // import { useState } from "react";
 // function App() {
-//   const [activeCategory, setActiveCategory] = useState(categories[0]);
+//const [activeCategory, setActiveCategory] = useState(categories[0]);
 //   const [products, setProducts] = useState([]);
 
 //   const handleClick = (index) => {
@@ -60,3 +60,13 @@
 // }
 
 // export default App;
+import Login from "./Project/Login";
+const App = () => {
+  return (
+    <div>
+      <Login></Login>
+    </div>
+  );
+};
+
+export default App;
